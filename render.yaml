@@ -8,5 +8,3 @@ services:
     region: frankfurt
     branch: index
     rootDir: .
-
-
