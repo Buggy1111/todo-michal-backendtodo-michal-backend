@@ -6,5 +6,7 @@ services:
     startCommand: "gunicorn todo_site.wsgi:application"
     autoDeploy: true
     region: frankfurt
-    branch: main
+    branch: index
     rootDir: .
+
+
