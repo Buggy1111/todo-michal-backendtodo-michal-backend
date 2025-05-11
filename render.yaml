@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: todo-michal
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn todo_site.wsgi:application"
+    autoDeploy: true
+    region: frankfurt
+    branch: main
