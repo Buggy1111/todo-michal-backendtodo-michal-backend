@@ -1,4 +1,4 @@
-pip install "Django>=5.1.2" djangorestframework gunicorn django-cors-headers
-djangorestframework
-gunicorn
-corsheaders
+pip install django-cors-headers
+pip install djangorestframework
+pip install gunicorn
+pip install corsheaders
